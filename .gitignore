@@ -1,1 +1,5 @@
+# Ignore persınol settings
 **.vscode/settings.json
+
+# Ignore generated target folder
+**/target/
