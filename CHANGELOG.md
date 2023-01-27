@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Bug Fixes
 
+- Move linker file to correct position & correct linker path for linux
 - Template spacing
 
 ### Documentation
