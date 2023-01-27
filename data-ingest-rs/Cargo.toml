@@ -1,0 +1,12 @@
+[package]
+name = "data-ingest-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kaan Taha Köken <https://www.github.com/kaankoken>"]
+repository = "https://www.github.com/kaankoken/de-practice.git"
+readme = "https://www.github.com/kaankoken/de-practice/README.md.git"
+keywords = ["data-ingest", "data", "data-engineering", "rust", "learning-rust"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.1.4", features = ["derive"] }
