@@ -2,12 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [2023-01-27]
 
 ### Features
 
-- Add script to check & update requirenents.txt
+- Add requirements.txt to keep package version
 - Add a new python script to ingest data
+- Add script to check & update requirements.txt
 
 ### Miscellaneous Tasks
 
