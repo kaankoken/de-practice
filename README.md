@@ -10,8 +10,24 @@ My name is Kaan. I am a software developer at [GAİN](www.gain.tv), writing flut
 
 ## Used Libraries
 
-- [clap](https://crates.io/crates/clap) for parsing command line arguments.
+### Rust
 
-## TODO
+- [clap](https://crates.io/crates/clap) for parsing command line arguments.
+- [zld](https://github.com/michaeleisel/zld) for faster linking to the binary ([download-link](brew install michaeleisel/zld/zld)).
+- [bacon](https://github.com/Canop/bacon) background rust code checker.
+- [git-cliff](https://github.com/orhun/git-cliff) for generating changelog from conventional git commits.
+
+### Python
+
+- [sqlalchemy](https://www.sqlalchemy.org) SQL toolkit and object-relational mapper.
+- [pandas](https://pandas.pydata.org) Tool for data manipulation and analysis.
+
+### TODO
+
+- [ ] Add unit tests for both scripts.
+- [ ] Add CI/CD pipelines for both scripts.
+- [ ] Create badges for the project.
+- [ ] Experiment with dockerizing the project.
+- [ ] Experiment with docker-compose & terraform.
 
 You could reach me on [Twitter](https://twitter.com/kaan_lego_koken) to discuss the project & help me to improve myself & the project.
