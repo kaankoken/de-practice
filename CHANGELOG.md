@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 ## [2023-01-27]
 
+### Bug Fixes
+
+- Template spacing
+
+### Documentation
+
+- Update todo section had new items.
+- Add initial readme page for the repo
+
 ### Features
 
 - Add requirements.txt to keep package version
