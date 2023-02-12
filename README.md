@@ -13,7 +13,7 @@ My name is Kaan. I am a software developer at [GAİN](www.gain.tv), writing flut
 ### Rust
 
 - [clap](https://crates.io/crates/clap) for parsing command line arguments.
-- [zld](https://github.com/michaeleisel/zld) for faster linking to the binary ([download-link](brew install michaeleisel/zld/zld)).
+- [zld](https://github.com/michaeleisel/zld) for faster linking to the binary (`brew install michaeleisel/zld/zld`).
 - [bacon](https://github.com/Canop/bacon) background rust code checker.
 - [git-cliff](https://github.com/orhun/git-cliff) for generating changelog from conventional git commits.
 
