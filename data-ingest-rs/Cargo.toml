@@ -10,3 +10,4 @@ keywords = ["data-ingest", "data", "data-engineering", "rust", "learning-rust"]
 
 [dependencies]
 clap = { version = "4.1.4", features = ["derive"] }
+color-eyre = "0.6.2"
