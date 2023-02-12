@@ -1,0 +1,50 @@
+{
+    /// Python
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120",
+        "--skip-magic-trailing-comma",
+        "-C",
+    ],
+    "python.linting.enabled": true,
+    "[python]": {
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "breadcrumbs.symbolSortOrder": "name",
+        "editor.rulers": [
+            120
+        ]
+    },
+    ///
+    /// Editor
+    "editor.autoIndent": "full",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "languageDefined",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.formatOnSave": true,
+    "editor.matchBrackets": "always",
+    "editor.minimap.enabled": false,
+    "editor.comments.insertSpace": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true,
+    },
+    /// Audio cues
+    "audioCues.diffLineDeleted": "off",
+    "audioCues.diffLineInserted": "off",
+    "audioCues.lineHasBreakpoint": "off",
+    "audioCues.lineHasError": "off",
+    "audioCues.lineHasFoldedArea": "off",
+    "audioCues.lineHasInlineSuggestion": "off",
+    "audioCues.lineHasWarning": "off",
+    "audioCues.noInlayHints": "off",
+    "audioCues.notebookCellCompleted": "off",
+    "audioCues.notebookCellFailed": "off",
+    "audioCues.onDebugBreak": "off",
+    "audioCues.taskCompleted": "off",
+    "audioCues.taskFailed": "off",
+    "audioCues.terminalQuickFix": "off",
+    ///
+}
