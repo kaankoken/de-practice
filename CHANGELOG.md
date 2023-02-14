@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2023-01-27]
+## [2023-02-15]
+
+### Miscellaneous Tasks
+
+- Update CHANGELOG.md for v0.0.1
+
+## [0.0.1] - 2023-02-12
 
 ### Bug Fixes
 
@@ -11,6 +17,7 @@ All notable changes to this project will be documented in this file.
 
 ### Documentation
 
+- Update URL format changed into code command
 - Update todo section had new items.
 - Add initial readme page for the repo
 
