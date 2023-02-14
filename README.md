@@ -16,6 +16,9 @@ My name is Kaan. I am a software developer at [GAİN](www.gain.tv), writing flut
 - [zld](https://github.com/michaeleisel/zld) for faster linking to the binary (`brew install michaeleisel/zld/zld`).
 - [bacon](https://github.com/Canop/bacon) background rust code checker.
 - [git-cliff](https://github.com/orhun/git-cliff) for generating changelog from conventional git commits.
+- [tokio](https://github.com/tokio-rs/tokio) for the async runtime environment.
+- [reqwest](https://github.com/seanmonstar/reqwest) high-level HTTP client.
+- [color-eyre](https://github.com/yaahc/color-eyre) An error report handler for panics and colorful, consistent, and well-formatted error reporter.
 
 ### Python
 
