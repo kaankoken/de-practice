@@ -6,6 +6,20 @@ All notable changes to this project will be documented in this file.
 
 ### Miscellaneous Tasks
 
+- Update CHANGELOG.md for v0.0.2
+
+## [0.0.2] - 2023-02-14
+
+### Documentation
+
+- Update used libraries for rust
+
+### Features
+
+- Add download file
+
+### Miscellaneous Tasks
+
 - Update CHANGELOG.md for v0.0.1
 
 ## [0.0.1] - 2023-02-12
