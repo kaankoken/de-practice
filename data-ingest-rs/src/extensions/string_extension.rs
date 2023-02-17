@@ -1,9 +1,11 @@
+use crate::models::FileFormat;
+
 pub trait StringExt {
-    fn is_csv(&self) -> bool;
+    fn file_type(&self) -> FileFormat;
 }
 
 impl StringExt for String {
-    fn is_csv(&self) -> bool {
-        self.contains(".csv")
+    fn file_type(&self) -> FileFormat {
+        FileFormat::from(self.clone())
     }
 }
