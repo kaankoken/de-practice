@@ -30,6 +30,7 @@ My name is Kaan. I am a software developer at [GAİN](www.gain.tv), writing flut
 ### TODO
 
 - [ ] Find a way to manage versioning for cargo file.
+- [ ] Add environment management for the project.
 - [ ] Add unit tests for both scripts.
 - [ ] Add CI/CD pipelines for both scripts.
 - [ ] Create badges for the project.
