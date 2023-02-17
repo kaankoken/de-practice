@@ -19,6 +19,8 @@ My name is Kaan. I am a software developer at [GAİN](www.gain.tv), writing flut
 - [tokio](https://github.com/tokio-rs/tokio) for the async runtime environment.
 - [reqwest](https://github.com/seanmonstar/reqwest) high-level HTTP client.
 - [color-eyre](https://github.com/yaahc/color-eyre) An error report handler for panics and colorful, consistent, and well-formatted error reporter.
+- [sqlx](https://github.com/launchbadge/sqlx) SQLx is an async, pure Rust† SQL crate featuring compile-time checked queries without a DSL. It is not an ORM tool.
+- [polars](https://github.com/pola-rs/polars) Polars is a blazingly fast DataFrames library implemented in Rust.
 
 ### Python
 
@@ -27,6 +29,7 @@ My name is Kaan. I am a software developer at [GAİN](www.gain.tv), writing flut
 
 ### TODO
 
+- [ ] Find a way to manage versioning for cargo file.
 - [ ] Add unit tests for both scripts.
 - [ ] Add CI/CD pipelines for both scripts.
 - [ ] Create badges for the project.
