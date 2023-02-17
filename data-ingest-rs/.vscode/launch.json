@@ -18,7 +18,7 @@
             },
             "args": [
                 "--url",
-                "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-01.parquet",
+                "https://people.sc.fsu.edu/~jburkardt/data/csv/letter_frequency.csv",
                 "--table",
                 "kaan",
             ],

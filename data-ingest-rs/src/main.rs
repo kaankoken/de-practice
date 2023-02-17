@@ -1,13 +1,16 @@
+mod extensions;
 mod models;
-mod util;
+mod utils;
 
 use clap::{Args, Command};
+use extensions::StringExt;
+use models::Cli;
 use std::{env, process::exit};
 
-use crate::models::Cli;
+type Error = color_eyre::Report;
 
 #[tokio::main]
-async fn main() -> color_eyre::Result<()> {
+async fn main() -> color_eyre::Result<(), Error> {
     color_eyre::install()?;
 
     let cli = Command::new("data-ingest");
@@ -29,11 +32,27 @@ async fn main() -> color_eyre::Result<()> {
         _ => file.unwrap(),
     };
 
-    if let true = url.is_some() {
-        util::download_file(file.to_owned()).await?;
-    }
+    let file_name = if url.is_some() {
+        utils::download_file(file.clone()).await?
+    } else {
+        file.to_string()
+    };
 
-    // TODO: read file
+    let file_type = file_name.file_type();
+
+    match (
+        file_type.is_csv(),
+        file_type.is_parquet(),
+        file_type.is_unknown(),
+    ) {
+        (true, _, _) => utils::read_csv_file(file_name),
+        (_, true, _) => utils::read_parquet_file(file_name),
+        _ => Err(color_eyre::eyre::eyre!(
+            "could not process, unknown file type {file_name}",
+        )),
+    }?;
+
+    utils::clean_downloads()?;
 
     Ok(())
 }
