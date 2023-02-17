@@ -13,4 +13,5 @@ clap = { version = "4.1.4", features = ["derive"] }
 color-eyre = "0.6.2"
 polars = { version = "0.27.2", features = ["lazy", "parquet"] }
 reqwest = { version = "0.11.14" }
+sqlx = { version = "0.6.2", features = ["runtime-tokio-rustls", "postgres"] }
 tokio = { version = "1.25.0", features = ["macros", "fs", "rt-multi-thread"] }
