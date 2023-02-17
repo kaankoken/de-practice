@@ -43,4 +43,18 @@
     "audioCues.taskFailed": "off",
     "audioCues.terminalQuickFix": "off",
     ///
+    /// Grammarly
+    "grammarly.files.exclude": [
+        "**/CHANGELOG.md",
+        "**/changelog.md",
+        "**/*.txt",
+        "**/*.json",
+    ],
+    ///
+    /// Code Spell Checker
+    "cSpell.ignorePaths": [
+        "**/Cargo.**",
+        "**/target/**",
+        "**/.vscode/**/"
+    ],
 }
