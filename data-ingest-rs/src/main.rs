@@ -1,5 +1,5 @@
-mod util;
 mod models;
+mod util;
 
 use clap::{Args, Command};
 use std::{env, process::exit};
@@ -30,7 +30,7 @@ async fn main() -> color_eyre::Result<()> {
     };
 
     if let true = url.is_some() {
-        util::download_file(file.to_owned(), String::from("test.csv")).await?;
+        util::download_file(file.to_owned()).await?;
     }
 
     // TODO: read file
