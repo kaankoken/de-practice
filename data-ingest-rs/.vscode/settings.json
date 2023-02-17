@@ -26,6 +26,7 @@
     /// Audio cues
     "audioCues.diffLineDeleted": "off",
     "audioCues.diffLineInserted": "off",
+    "audioCues.diffLineModified": "off",
     "audioCues.lineHasBreakpoint": "off",
     "audioCues.lineHasError": "off",
     "audioCues.lineHasFoldedArea": "off",
