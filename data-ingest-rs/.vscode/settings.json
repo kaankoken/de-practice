@@ -8,6 +8,9 @@
         ],
         "editor.autoClosingQuotes": "always",
     },
+    "workbench.colorCustomizations": {
+        "debugConsole.infoForeground": "#e5e1e1"
+    },
     ///
     /// Editor
     "editor.autoIndent": "full",

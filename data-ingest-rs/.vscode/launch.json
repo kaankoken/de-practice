@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'data-ingest-rs'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=data-ingest-rs",
+                    "--package=data-ingest-rs"
+                ],
+                "filter": {
+                    "name": "data-ingest-rs",
+                    "kind": "bin"
+                }
+            },
+            "args": [
+                "--url",
+                "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-01.parquet",
+                "--table",
+                "kaan",
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'data-ingest-rs'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=data-ingest-rs",
+                    "--package=data-ingest-rs"
+                ],
+                "filter": {
+                    "name": "data-ingest-rs",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
