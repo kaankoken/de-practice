@@ -1,9 +1,10 @@
 mod util;
+mod models;
 
 use clap::{Args, Command};
 use std::{env, process::exit};
 
-use crate::util::Cli;
+use crate::models::Cli;
 
 #[tokio::main]
 async fn main() -> color_eyre::Result<()> {
