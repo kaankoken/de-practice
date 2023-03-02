@@ -42,6 +42,9 @@
     "audioCues.taskCompleted": "off",
     "audioCues.taskFailed": "off",
     "audioCues.terminalQuickFix": "off",
+    "audioCues.terminalCommandFailed": "off",
+    "audioCues.debouncePositionChanges": false,
+    "audioCues.volume": 0,
     ///
     /// Grammarly
     "grammarly.files.exclude": [
